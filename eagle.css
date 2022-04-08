@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Dongle:wght@300&family=Kalam:wght@300&family=Mochiy+Pop+P+One&family=Nunito&family=Poppins:wght@300&display=swap');
+
+body
+{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        font-family: 'Poppins', sans-serif;
+        background: rgb(0, 0, 0);
+        overflow: hidden;
+}
+
+p
+{
+        font-size: 8px;
+        line-height: 8px;
+        background: url(eagle.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        -moz-background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: rgba(255, 255, 255, 0.1 );
+        -moz-text-fill-color: rgba(255, 255, 255, 0.1);
+}
